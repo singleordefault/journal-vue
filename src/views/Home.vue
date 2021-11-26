@@ -1,23 +1,24 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+
     <h1>Hola Mundo</h1>
 
-    <button @click="goToDayBook" class="btn btn-primary">Primary</button>
-        <button @click="goToDayBook" class="btn btn-secondary">Secondary</button>
-    <button @click="goToDayBook" class="btn btn-success">Success</button>
+    <button @click="goToDaybook" class="btn btn-primary">Primary</button>
+    <button @click="goToDaybook" class="btn btn-secondary">Secondary</button>
+    <button @click="goToDaybook" class="btn btn-success">Success</button>
 
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
 
+<script>
 export default {
   methods: {
-    goToDayBook() {
-      this.$router.push({name: 'daybook'})
+    goToDaybook() {
+      this.$router.push({ name: 'no-entry' })
     }
   }
 }
 </script>
+

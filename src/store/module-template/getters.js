@@ -1,3 +1,7 @@
-// export const myGetter = ({state}) => {
-//     return state; // state.loQueSea
+
+// export const myGetter = ( state ) => {
+//  return state
 // }
+
+
+
